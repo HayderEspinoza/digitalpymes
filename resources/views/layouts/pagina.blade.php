@@ -23,7 +23,64 @@
     <link rel="stylesheet" href="{{ asset('web/css/style.css') }}">
   </head>
   <body data-spy="scroll" data-target="#ftco-navbar" data-offset="200">
+
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="{{ asset('web/images/logo.png') }}" alt="" width="290">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="oi oi-menu"></span> Menu
+        </button>
+
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active"><a href="#section-home" class="nav-link">HOGAR</a></li>
+            <li class="nav-item"><a href="#section-features" class="nav-link">EMPRESA</a></li>
+            <li class="nav-item"><a href="#section-services" class="nav-link">PROFESIONAL</a></li>
+            <li class="nav-item"><a href="#section-pricing" class="nav-link">SERVICIO</a></li>
+            <li class="nav-item"><a href="{{ url('/login') }}" class="nav-link">INGRESA</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
     @yield('content')
+
+    <footer class="web-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 logo-footer">
+            <img class="float-right" src="{{ asset('web/images/logo_negro.png') }}" alt="" width="100px"> 
+          </div>
+          <div class="col-md-6">
+            <div class="row">
+              <div class="col">
+                <ul class="list-unstyled">
+                  <li><a href="#" class="footer-link">HOGAR</a></li>
+                  <li><a href="#" class="footer-link">EMPRESA</a></li>
+                  <li><a href="#" class="footer-link">PROFESIONAL</a></li>
+                </ul>
+              </div>
+              <div class="col">
+                <ul class="list-unstyled">
+                  <li><a href="#" class="footer-link">CONTACTO</a></li>
+                  <li><a href="#" class="footer-link">(57) 302 4394586</a></li>
+                </ul>
+              </div>
+              <div class="col">
+                <ul class="list-unstyled">
+                  <li><a href="#" class="footer-link">REDES SOCIALES</a></li>
+                  <li><a href="#" class="footer-link">INSTAGRAM</a></li>
+                  <li><a href="#" class="footer-link">FACEBOOK</a></li>
+                  <li><a href="#" class="footer-link">YOUTUBE</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
 
 
     <script src="{{ asset('web/js/jquery.min.js')}}"></script>
