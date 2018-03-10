@@ -5,7 +5,7 @@
 
 	
 
-    <section class="ftco-cover" style="background-image: url({{ asset('web/images/hogar/portada.png') }});" id="section-home">
+    <section class="ftco-cover" style="background-image: url({{ asset('web/images/home/portada.png') }});" id="section-home">
       <div class="container">
         <div class="row align-items-center justify-content-center text-center ftco-vh-100">
           <div class="col-md-10">
@@ -14,7 +14,7 @@
             </h1>
             <div class="row justify-content-center">
               <div class="col-md-4">
-                  <a href="#" class="btn btn-sm btn-white btn-block slide-text">SERVICIOS PARA TU HOGAR</a>
+                  <a href="#" class="btn btn-sm btn-white btn-block slide-text">SERVICIOS PARA TU home</a>
               </div>
               <div class="col-md-4">
                   <a href="#" class="btn btn-primary btn-sm btn-block slide-text">EMPRESAS</a>
@@ -41,7 +41,7 @@
 
               <div class="col-md bg-white p-5 m-2 text-center mb-2 ftco-animate servicio-destacado">
                 <figure>
-                  <img src="{{ asset('web/images/hogar/plomeria.jpg') }}" alt="Free Template by Free-Template.co" class="img-fluid">
+                  <img src="{{ asset('web/images/home/plomeria.jpg') }}" alt="Free Template by Free-Template.co" class="img-fluid">
                 </figure>
                 <h3>PLOMERO</h3>
                 <div class="p-3 text-center">
@@ -51,7 +51,7 @@
 
               <div class="col-md bg-white p-5 m-2 text-center mb-2 ftco-animate servicio-destacado">
                 <figure>
-                  <img src="{{ asset('web/images/hogar/electricista.jpg') }}" alt="Free Template by Free-Template.co" class="img-fluid">
+                  <img src="{{ asset('web/images/home/electricista.jpg') }}" alt="Free Template by Free-Template.co" class="img-fluid">
                 </figure>
                 <h3>ELICTRICISTA</h3>
                 <div class="p-3 text-center">
@@ -61,7 +61,7 @@
 
               <div class="col-md bg-white p-5 m-2 text-center mb-2 ftco-animate servicio-destacado">
                 <figure>
-                  <img src="{{ asset('web/images/hogar/carpinteria.jpg') }}" alt="Free Template by Free-Template.co" class="img-fluid">
+                  <img src="{{ asset('web/images/home/carpinteria.jpg') }}" alt="Free Template by Free-Template.co" class="img-fluid">
                 </figure>
                 <h3>CARPINTEROS</h3>
                 <div class="p-3 text-center">
@@ -98,7 +98,7 @@
               
               <div class="col-md-4 ftco-animate">
                 <figure class="text-center">
-                  <img src="{{ asset('web/images/hogar/buscar.png') }}" alt="Free Template by Free-Template.co" width="40%">
+                  <img src="{{ asset('web/images/home/buscar.png') }}" alt="Free Template by Free-Template.co" width="40%">
                 </figure>
                 <div class="wrap-funcion text-center">
                   <h3 class="h4">BUSCA</h3>
@@ -108,7 +108,7 @@
 
               <div class="col-md-4 offset-md-1 ftco-animate text-center">
                 <figure class="text-center">
-                  <img src="{{ asset('web/images/hogar/llamar.png') }}" alt="Free Template by Free-Template.co" width="40%">
+                  <img src="{{ asset('web/images/home/llamar.png') }}" alt="Free Template by Free-Template.co" width="40%">
                 </figure>
                 <div class="wrap-funcion text-center">
                   <h3 class="h4">CONTACTA</h3>
@@ -118,7 +118,7 @@
 
               <div class="col-md-4 offset-md-1 ftco-animate">
                 <figure class="text-center">
-                  <img src="{{ asset('web/images/hogar/satisfaccion.png') }}" alt="Free Template by Free-Template.co" width="40%">
+                  <img src="{{ asset('web/images/home/satisfaccion.png') }}" alt="Free Template by Free-Template.co" width="40%">
                 </figure>
                 <div class="wrap-funcion text-center">
                   <h3 class="h4">SOLUCIONA</h3>
