@@ -32,16 +32,15 @@ h1, h2, h3, h4, h5,
   color: $black
 .text-primary
   color: $primary !important
-.ftco-navbar-light
-  background: transparent !important
-  position: absolute
-  left: 0
-  right: 0
-  z-index: 3
-  @media screen and (max-width: 991px)
-    background: $black !important
-    top: 0
-    position: relative
+.nav-primary
+  // background: $primary !important
+  // top: 0
+  // position: relative
+  // z-index: 3
+  // position: absolute
+  // left: 0
+  // right: 0
+  // @media screen and (max-width: 991px)
   .navbar-nav
     > .nav-item
       > .nav-link
@@ -231,7 +230,6 @@ h1, h2, h3, h4, h5,
       color: $black
 .form-control
   border: 1px solid rgba($black, 0.2)
-  height: 55px
   background: none !important
   color: $black !important
   font-size: 18px
@@ -247,6 +245,18 @@ textarea
     padding-bottom: 5em
 .ftco-vh-75
   height: 75vh
+  @media screen and (max-width: $lg)
+    height: inherit
+    padding-top: 5em
+    padding-bottom: 5em
+.ftco-vh-50
+  height: 50vh
+  @media screen and (max-width: $lg)
+    height: inherit
+    padding-top: 5em
+    padding-bottom: 5em
+.ftco-vh-40
+  height: 40vh
   @media screen and (max-width: $lg)
     height: inherit
     padding-top: 5em
@@ -491,10 +501,10 @@ textarea
   .servicio-destacado
     border 1px solid #d8d8d8
 .web-footer
-  background #f1f1f2
+  background #4586ff
   padding 50px 0
   .footer-link
-    color #1c293c
+    color #fff
   .logo-footer
     padding-right: 100px
 .slide-text
@@ -525,3 +535,46 @@ textarea
     line-height: 40px
     font-size: 50px !important
     font-weight: bold
+.bg-dark
+  background: $primary !important
+  border: 0
+  .nav-item
+    a
+      color: white !important
+.text-white
+  color $white
+.filtro
+  .form-control
+    background: $white !important
+  .btn.btn-sm
+    padding: 8px 20px !important
+.paginacion
+  background #f1f1f2 !important
+  .orderBy
+    background: $white
+.pagination
+  margin: 0
+  .page-item
+    margin-right: 5px !important
+    .page-link
+      background: transparent !important
+      padding 4px 8px
+      border-color #a9abae
+      color #1c293c
+.btn-custom
+  background $white
+  border 1px solid #757474 !important
+  border-radius 0
+  color #030303
+  svg
+    font-size 18px !important
+.borde-servicio
+  border-bottom 1px solid #383636
+.contacto
+  .form-control
+    border-radius 0 !important
+    border-color #333
+    color #333
+    text-align center
+  .form-control::placeholder
+    color #222 !important

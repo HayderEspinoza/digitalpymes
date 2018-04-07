@@ -11,22 +11,22 @@
     <meta name="keywords" content="" />
     <meta name="author" content="digitaldevs.co" />
     
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('web/css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('web/css/open-iconic-bootstrap.min.css') }}" >
+    
     <link rel="stylesheet" href="{{ asset('web/css/animate.css') }}">
     
     <link rel="stylesheet" href="{{ asset('web/css/owl.carousel.min.css') }}">
     <link rel="stylesheet" href="{{ asset('web/css/owl.theme.default.min.css') }}">
 
-    <link rel="stylesheet" href="{{ asset('web/css/icomoon.css') }}">
+    <!-- <link rel="stylesheet" href="{{ asset('web/css/icomoon.css') }}"> -->
     <link rel="stylesheet" href="{{ asset('web/css/style.css') }}">
   </head>
   <body data-spy="scroll" data-target="#ftco-navbar" data-offset="200">
 
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
       <div class="container">
-        <a class="navbar-brand" href="index.html">
+        <a class="navbar-brand" href="/">
           <img src="{{ asset('web/images/logo.png') }}" alt="" width="290">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -35,10 +35,8 @@
 
         <div class="collapse navbar-collapse" id="ftco-nav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active"><a href="#section-home" class="nav-link">HOGAR</a></li>
-            <li class="nav-item"><a href="#section-features" class="nav-link">EMPRESA</a></li>
-            <li class="nav-item"><a href="#section-services" class="nav-link">PROFESIONAL</a></li>
-            <li class="nav-item"><a href="#section-pricing" class="nav-link">SERVICIO</a></li>
+            <li class="nav-item"><a href="{{ url('/servicio') }}" class="nav-link">SERVICIOS</a></li>
+            <li class="nav-item"><a href="{{ url('/servicios') }}" class="nav-link">BUSCAR</a></li>
             <li class="nav-item"><a href="{{ url('/login') }}" class="nav-link">INGRESA</a></li>
           </ul>
         </div>
@@ -96,7 +94,7 @@
     <script src="{{ asset('web/js/google-map.js')}}"></script> --}}
 
     <script src="{{ asset('web/js/main.js')}}"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 
-    
   </body>
 </html>
