@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Pymes;
+namespace Pymes;
 
 use Illuminate\Database\Eloquent\Model;
 

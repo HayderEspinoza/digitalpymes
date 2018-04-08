@@ -37,23 +37,23 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="nav navbar-nav">
                         @if(Auth::check())
-                            <li class="nav-item">
+                            <li class="nav-item @yield('lenders')">
                                 <a class="nav-link" href="{{ route('lenders.index') }}">Prestadores</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="">Servicios</a>
+                            <li class="nav-item @yield('services')">
+                                <a class="nav-link" href="{{ route('services.index') }}">Servicios</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="">Departamentos</a>
+                            <li class="nav-item @yield('departaments')">
+                                <a class="nav-link" href="{{ route('departaments.index') }}">Departamentos</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="">Ciudades</a>
+                            <li class="nav-item @yield('cities')">
+                                <a class="nav-link" href="{{ route('cities.index') }}">Ciudades</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="">Categorias</a>
+                            <li class="nav-item @yield('categories')">
+                                <a class="nav-link" href="{{ route('categories.index') }}" >Categorias</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="">Usuarios</a>
+                            <li class="nav-item @yield('users')">
+                                <a class="nav-link" href="{{ route('users.index') }}">Usuarios</a>
                             </li>
                         @endif
                     </ul>
@@ -95,5 +95,6 @@
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/laravel.js') }}"></script>
 </body>
 </html>

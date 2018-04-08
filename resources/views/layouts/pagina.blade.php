@@ -95,6 +95,7 @@
 
     <script src="{{ asset('web/js/main.js')}}"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+    <script src="{{ asset('js/laravel.js') }}"></script>
 
   </body>
 </html>

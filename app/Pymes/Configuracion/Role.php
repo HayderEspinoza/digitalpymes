@@ -2,14 +2,10 @@
 
 namespace Pymes\Configuracion;
 
-use App\Pymes\Intermediate;
+use Pymes\Intermediate;
 
 class Role extends Intermediate
 {
-    /**
-     * Fields that can be mass assigned.
-     *
-     * @var array
-     */
+	protected $table = 'roles';
     protected $fillable = ['name'];
 }
