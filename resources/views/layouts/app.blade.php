@@ -38,7 +38,7 @@
                     <ul class="nav navbar-nav">
                         @if(Auth::check())
                             <li class="nav-item">
-                                <a class="nav-link" href="">Prestadores</a>
+                                <a class="nav-link" href="{{ route('lenders.index') }}">Prestadores</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="">Servicios</a>
